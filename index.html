@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jean-Louis De Pecker</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Font Awesesome -->
+    <script src="https://kit.fontawesome.com/9598891bde.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR 
+=============-->
+    <header>
+        <nav>
+            <div class="Logo">
+                <p id="myLogo"><i class="fa-solid fa-code"></i></p>
+            </div>
+            <h1>Jean-Louis DE PECKER</h1>
+            <p>Developpeur Web Juriste</p>
+            <!-- icône hamburger pour responsive < 768 -->
+            <i id="hamburger" class="fa-solid fa-bars fa-2x" onclick="showOrHideLinks()"></i>
+            <!-- navbar Elements -->
+            <div id="navElementStart">
+                <a href="#about">A Propos</a>
+                <a href="#inWebStackSkills">Web Stack</a>
+                <a href="#inCollaboration">Collaboration</a>
+                <a href="#inRealisation">Réalisations</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <!-- ABOUT 
+    ==============-->
+    <main>
+        <section id="about">
+            <div id="aboutLeft">
+                <a href="https://www.linkedin.com/in/jlpek17" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>&nbsp;</a>
+                <a href="https://github.com/jlpek17" target="_blank">
+                    <i class="fa-brands fa-github"></i>&nbsp;</a>
+            </div>
+
+            <div id="aboutMiddle">
+                <div id="resume">
+                    <h1>Je vous donne un accès simplifié aux technologies Web</h1>
+                    <p>... mettre de l'ordre dans la complexité</p>
+                </div>
+                <div id="buttonLink">
+                    <a class="button" href="Ressources/myCV.pdf" target="_blank">Mon CV</a>
+                    <a class="button" href="#contact">Me Contacter</a>
+                </div>
+            </div>
+
+            <div id="aboutRight">
+                <img id="photoTitle1" src="Ressources/photoTitle2-unsplash.jpg" alt="phototitre">
+            </div>
+        </section>
+
+        <!-- Web Stack & Competences (2 colonnes la premiere est divisée en 2 colonnes) 
+        =============================================================================== -->
+
+        <section class="titleSection">
+            <h3>Web Stack | Competences</h3>
+        </section>
+
+        <section id="inWebStackSkills">
+            <div>
+                <section id="inWebStack">
+                    <div id="firstCol">
+                        <p><i class="fa-brands fa-html5"></i></p>
+                        <p><i class="fa-brands fa-css3-alt"></i></p>
+                        <p><i class="fa-brands fa-js"></i></p>
+                    </div>
+                    <div id="secondCol">
+                        <p><i class="fa-brands fa-bootstrap"></i></p>
+                        <p><i class="fa-brands fa-php"></i></p>
+                        <p><i class="fa-brands fa-python"></i></p>
+                    </div>
+                </section>
+
+                <section id="inSkills">
+                    <div id="skills">
+                        <p><i class="fa-solid fa-list-check"></i><br>Gestion de Projet</p>
+                        <p><i class="fa-regular fa-handshake"></i><br>Accompagnement au changement</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <!-- COLLABORATIONS 
+        =================== -->
+
+        <section class="titleSection">
+            <h3>Collaboration</h3>
+        </section>
+
+        <section id="inCollaboration">
+
+            <div id="macif">
+                <img id="logoJobMacif" src="Ressources/logoMacif.png" alt="logo Macif">
+                <p><b>Macif</b>&nbsp;(Job)<br>Chargé de Solution SI</p>
+            </div>
+
+            <div id="arinfo">
+                <img id="logoJobARInfo" src="Ressources/logoARinfo.png" alt="logo ARinfo">
+                <p><b>ARinfo</b>&nbsp;(Formation)<br>Developpeur Web/Web Mobile</p>
+            </div>
+
+        </section>
+
+
+        <!-- REALISATION
+        ================ -->
+
+        <section class="titleSection">
+            <h3>Réalisation</h3>
+        </section>
+
+        <section id="inRealisation">
+            <div class="vignetteSite">
+                <img src="Ressources/CaptureSiteCarteVisite.jpg" alt="Apercu site Carte de Visite">
+                <p>Carte de Visite</p>
+            </div>
+
+            <div class="vignetteSite">
+                <img src="Ressources/CaptureSiteKomeWaza.jpg" alt="Apercu site KomeWaza">
+                <p>KomeWaza</p>
+            </div>
+
+            <div class="vignetteSite">
+                <img src="Ressources/CaptureSitePortfolio.jpg" alt="Apercu site Portfolio">
+                <p>Portfolio</p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- CONTACT
+    ============ -->
+    <footer>
+        <section class="titleSection">
+            <h3>Contact</h3>
+        </section>
+        <section id="contact">
+            <div id="directContact">
+                <a href="tel:06.63.19.65.39">06.63.19.65.39&nbsp;(<i class="fa-solid fa-mobile-retro"></i>)</a>
+                <a href="mailto:jlpek17@gmail.com">jlpek17@gmail.com&nbsp;(<i class="fa-solid fa-envelope"></i>)</a>
+            </div>
+            <div id="networkEnd">
+                <a href="https://www.linkedin.com/in/jlpek17/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>&nbsp;</a>
+                <a href="https://github.com/jlpek17" target="_blank">
+                    <i class="fa-brands fa-github"></i>&nbsp;</a>
+            </div>
+        </section>
+        <section id="navEnd">
+            <a href="#about">A Propos</a>
+            <a href="#inWebStackSkills">Web Stack</a>
+            <a href="#inCollaboration">Collaboration</a>
+            <a href="#inRealisation">Réalisations</a>
+        </section>
+    </footer>
+
+    <!-- UNDERTHEHOOD 
+    ================= -->
+
+    <!-- Script JS display or not the Hamburger NavBar -->
+
+    <script>
+
+        function showOrHideLinks() {
+
+            // je cible la liste des liens et ja le stocke dans une variable (+ lisible)
+            const navlinks = document.getElementById('navElementStart')
+
+            // La propriété display de la liste des liens est sur none ? Je l'affiche. Sinon : je la masque
+            navlinks.style.display == 'none' ? navlinks.style.display = 'flex' : navlinks.style.display = 'none' // ternaire
+
+        }
+
+    </script>
+
+</body>
+
+</html>
